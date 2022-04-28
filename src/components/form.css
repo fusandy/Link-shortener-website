@@ -1,0 +1,24 @@
+.container{
+    width: 600px;
+}
+.output-area{
+    display: flex;
+    align-items: center;
+}
+#input{
+    background: #fff;
+    border-radius:5px;
+}
+.btn-area{
+    margin: 5% 0;
+    text-align: right;
+}
+.copy{
+    margin: 2% 0;
+    text-align: right;
+    cursor: pointer;
+    transition: .2s;
+}
+.copy:hover{
+    color: gray;
+}
